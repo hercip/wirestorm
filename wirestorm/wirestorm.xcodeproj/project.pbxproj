@@ -15,6 +15,7 @@
 		3FA274471C555E030016BD65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA274451C555E030016BD65 /* LaunchScreen.storyboard */; };
 		3FA274521C555E030016BD65 /* wirestormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA274511C555E030016BD65 /* wirestormTests.swift */; };
 		3FA2745D1C555E030016BD65 /* wirestormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2745C1C555E030016BD65 /* wirestormUITests.swift */; };
+		3FA2746B1C5560600016BD65 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2746A1C5560600016BD65 /* DataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3FA274581C555E030016BD65 /* wirestormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wirestormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA2745C1C555E030016BD65 /* wirestormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wirestormUITests.swift; sourceTree = "<group>"; };
 		3FA2745E1C555E030016BD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA2746A1C5560600016BD65 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3FA274431C555E030016BD65 /* Assets.xcassets */,
 				3FA274451C555E030016BD65 /* LaunchScreen.storyboard */,
 				3FA274481C555E030016BD65 /* Info.plist */,
+				3FA2746A1C5560600016BD65 /* DataProvider.swift */,
 			);
 			path = wirestorm;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				3FA2743F1C555E030016BD65 /* DetailViewController.swift in Sources */,
 				3FA2743D1C555E030016BD65 /* MasterViewController.swift in Sources */,
+				3FA2746B1C5560600016BD65 /* DataProvider.swift in Sources */,
 				3FA2743B1C555E030016BD65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

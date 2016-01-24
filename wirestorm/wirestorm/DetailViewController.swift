@@ -10,10 +10,10 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
 
+    @IBOutlet weak var imageView: UIImageView!
 
-    var detailItem: AnyObject? {
+    var stringUrl: String? {
         didSet {
             // Update the view.
             self.configureView()
@@ -22,9 +22,9 @@ class DetailViewController: UIViewController {
 
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.description
+        if let stringUrl = self.stringUrl {
+            if let imageView = self.imageView {
+                imageView.downloadedFrom(link: stringUrl, contentMode: .ScaleAspectFit, completionHandler: nil)
             }
         }
     }
